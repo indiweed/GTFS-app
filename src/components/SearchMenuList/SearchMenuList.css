@@ -1,0 +1,37 @@
+.searchMenu {
+    position: absolute;
+    left: -280px;
+    width: 280px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #f4f4f4;
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+.searchMenu.open {
+    left: 0px;
+}
+
+.top_bar {
+    position: fixed;
+    background-color: #f4f4f4;
+    width: 280px;
+    height: 60px;
+}
+
+.close_btn_search {
+    display: 'none';
+    margin-left: 240px;
+    margin-top: 20px;
+}
+
+.close_btn_search img {
+    width: 20px;
+    height: 20px;
+}
+
+.close_btn_search.open {
+    width: 23px;
+    height: 23px;
+}

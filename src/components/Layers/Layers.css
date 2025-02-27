@@ -1,0 +1,13 @@
+.layers_icon.open img{
+    content: url(../../img/close.svg);
+    width: 20px;
+    height: 20px;
+}
+
+.toggle-layers {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    z-index: 1100;
+    cursor: pointer;
+}

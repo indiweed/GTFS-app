@@ -1,0 +1,12 @@
+.btn_icon_burger {
+    top: 20px;
+    left: 16px;
+    width: 23px;
+    height: 23px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+.btn_icon_burger.open img{
+    display: 'none';
+}

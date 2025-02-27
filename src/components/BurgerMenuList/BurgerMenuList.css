@@ -1,0 +1,92 @@
+.burgerMenu {
+    position: absolute;
+    left: -280px;
+    width: 280px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #f4f4f4;
+    transition: left 0.3s ease; 
+    z-index: 1300;
+}
+
+.burgerMenu.open {
+    left: 0;
+}
+
+.close_btn_burger img{
+    display: 'none';
+}
+
+.close_btn_burger {
+    margin-top: 20px;
+    margin-left: 240px;
+}
+
+.close_btn_burger img{
+    width: 20px;
+    height: 20px;
+}
+
+.subsections_menu {
+    padding-top: 16px;
+    padding-left: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #223E42;
+}
+
+.subsections_menu h1 {
+    font-size: 20px;
+}
+
+.subsections_ul {
+    margin-top: 24px;
+    display: block;
+    flex-direction: column;
+}  
+
+.subsections_ul li {
+    margin-top: 20px;
+}
+
+.subsections_item button{
+    color: #223E42;
+    font-size: 18px;
+}
+
+.subsections_item_title:active {
+    color: #223E42;
+}
+
+.subsections_item_title:hover {
+    color: #1C4045;
+}
+
+.subsections_item_title:focus {
+    color: #4090FF;
+}
+
+.subsections_item_list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 12px;
+}
+
+.subsections_item_list button {
+    font-size: 14px;
+    color: #223E42;
+    margin-top: 8px;        
+}
+
+.subsections_item_list button:active {
+    color: #223E42;
+}
+
+.subsections_item_list button:hover {
+    color: #1C4045;
+}
+
+.subsections_item_list button:focus {
+    color: #4090FF;
+}

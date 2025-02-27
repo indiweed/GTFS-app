@@ -1,0 +1,34 @@
+.sidebar_search{
+    margin-left: 16px;
+    margin-top: 60px;
+    position: fixed;
+    background-color: #f4f4f4;
+    height: 60px;
+    width: 245px;
+}
+
+#sidebar_input {
+    height: 48px;
+    border: 1px solid #223E42;
+    border-radius: 8px;
+    padding-left: 17px;
+}
+
+#search_icon {
+    margin-left: 12px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.notFoundContainer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Inter', sans-serif;
+    color: #4F6E72;
+    text-align: center;
+    width: 160px;
+    height: 140px;
+    padding-top: 120px;
+}

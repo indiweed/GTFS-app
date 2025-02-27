@@ -1,0 +1,10 @@
+.btn_icon_search {
+    top: 55px;
+    left: 20px;
+    z-index: 1000;
+    transition: left 0.3s ease;
+}
+
+.btn_icon_search.open {
+    display: 'none';
+}

@@ -1,0 +1,41 @@
+.routes {
+    font-family: 'Inter', sans-serif;
+}
+
+.list {
+    z-index: 0;
+    margin-top: 120px;
+}
+
+.list li{
+    margin-top: 12px;
+    width: 240px;
+    height: 100px;
+    border: 1px solid #AFCDD1;
+    border-radius: 8px;
+    color: #223E42;
+    margin-left: 16px;
+}
+
+.route_num {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+
+.route_num_info {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+
+.route_num_info button:hover {
+    color: blue;
+}

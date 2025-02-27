@@ -1,0 +1,42 @@
+.layers {
+    position: fixed;
+    right: -260px;
+    transition: right 0.3s ease;
+    z-index: 1000;
+}
+
+.layers.open {
+    right: 10px;
+}
+
+.layers_list {
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    width: 210px;
+    height: 300px;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 32px 24px;
+    transition: right 0.3s ease;
+}
+
+.layers_list h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.layers_list ul {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.layers_list li {
+    width: max-content;
+    height: 35px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
