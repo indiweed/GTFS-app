@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/GTFS-app/static/css/main.7ce31ee8.css",
+    "main.js": "/GTFS-app/static/js/main.792d687c.js",
+    "static/media/shapes.txt": "/GTFS-app/static/media/shapes.0a2a72f4ab8d90a50f56.txt",
+    "static/media/trips.txt": "/GTFS-app/static/media/trips.7278ff47a515c80c7f0b.txt",
+    "static/media/stops.txt": "/GTFS-app/static/media/stops.62de4bb467b42d6c7433.txt",
+    "static/media/ic_baseline-search-off.svg": "/GTFS-app/static/media/ic_baseline-search-off.17b78637959f8bda1666f6c5a7c10984.svg",
+    "static/media/lupa.svg": "/GTFS-app/static/media/lupa.eee520df08f11a0b1f1721e1c05a4fc0.svg",
+    "index.html": "/GTFS-app/index.html",
+    "static/media/close.svg": "/GTFS-app/static/media/close.8b6ee11161c5cc405cf7e04eb7f891a1.svg",
+    "main.7ce31ee8.css.map": "/GTFS-app/static/css/main.7ce31ee8.css.map",
+    "main.792d687c.js.map": "/GTFS-app/static/js/main.792d687c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ce31ee8.css",
+    "static/js/main.792d687c.js"
+  ]
+}
