@@ -19,8 +19,8 @@
     "maplibre-gl": "^4.5.0",
     "mysql": "^2.18.1",
     "papaparse": "^5.4.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-icons": "^5.2.1",
     "react-map-gl": "^7.1.7",
     "react-map-gl-supercluster": "^2.0.2",
@@ -33,7 +33,9 @@
     "start": "react-scripts start - port 3001",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
