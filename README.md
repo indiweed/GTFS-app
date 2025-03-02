@@ -1,4 +1,4 @@
-GTFS-Project
+GTFS-app
 
 ▎Описание проекта
 
